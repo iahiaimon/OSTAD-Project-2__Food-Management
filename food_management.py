@@ -19,6 +19,7 @@ while True:
         elif option == 1 :
             food = input("\nEnter your food name: ")
             fev_food.append(food)
+            print(f"\nYou added {food} in your list")
 
         elif option == 2 :
 
@@ -34,7 +35,7 @@ while True:
                     fev_food.remove(food)
 
                 else:
-                    print("\nYour food item is not in the list \n")  
+                    print(f"\nYour food item ({food}) is not in the list \n")  
 
             elif option == 2 :
                 print("\nAre you sure that you want to clear the list?")
